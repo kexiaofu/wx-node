@@ -5,7 +5,7 @@ var pool = mysql.createPool({
   password : '817822ke',
   database : 'wx_mp_doctor',
   insecureAuth:true,
-  charset:'utf8'
+  charset:'utf8mb4'
 });
 
 var query=function(sql,callback){
